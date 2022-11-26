@@ -48,7 +48,53 @@ body {
     background-color: black;
 }
 
+input {
+    height: 8vh;
+    width: 58vh;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+
 #button-container {
     display: flex;
-    flex-wrap: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 56vh;
+    margin-bottom: 2vh;
+    margin-top: -2vh;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    width: 64vh;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    width: 15vh;
+    background-color: "#AFE1AF";
+    border: 3px solid black;
+    font-size: 50px;
+    border-radius: 5px;
+}
+
+#bracket-container {
+    display: flex;
+    height: 12vh;
+    width: 15vh;
+    justify-content: space-between;
+}
+
+.bracket.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    width: 6vh;
 }
