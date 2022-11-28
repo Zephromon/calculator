@@ -7,14 +7,7 @@ document.querySelector("#enter").addEventListener("click", () => {
     let output_text = document.createTextNode(`${Function("return " + input)()}`)
     output.appendChild(output_text);
 })
-/*
-document.querySelectorAll(".row > button").forEach(button => {
-    content.log(button);
-    button.addEventListener("click", (button) => {
-        document.querySelector("input").innerHTML += button.innerHTML;
-    })
-});
-*/
+
 const buttons = document.querySelectorAll(".row button");
 for (let i = 0; i < buttons.length; i++)  {
     buttons[i].addEventListener("click", function() {
