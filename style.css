@@ -20,7 +20,7 @@ body {
 
 #screen-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 28vh;
 }
@@ -33,27 +33,43 @@ body {
     align-items: center;
     border-radius: 10px;
     height: 20vh;
-    width: 60vh;
+    width: 50vh;
 }
 
 #output {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     height: 8vh;
-    width: 58vh;
+    width: 48vh;
     background-color: black;
+    color: white;
+    font-size: 40px;
 }
 
 #input {
     height: 8vh;
-    width: 58vh;
+    width: 48vh;
     background-color: black;
 }
 
 input {
-    height: 8vh;
-    width: 58vh;
+    height: 7.8vh;
+    width: 47.9vh;
     background-color: black;
     color: white;
     font-size: 40px;
+}
+
+#enter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: "#AFE1AF";
+    border: 3px solid black;
+    height: 20vh;
+    width: 12vh;
+    font-size: 35px;
 }
 
 #button-container {
@@ -72,7 +88,7 @@ input {
     width: 64vh;
 }
 
-.button {
+.row  button {
     display: flex;
     justify-content: center;
     align-items: center;
