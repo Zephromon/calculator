@@ -21,3 +21,7 @@ for (let i = 0; i < buttons.length; i++)  {
         document.querySelector("input").value += buttons[i].textContent;
     })  
 }
+
+document.querySelector("#clear").addEventListener("click", () => {
+    document.querySelector("input").value = "";
+})

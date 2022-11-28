@@ -61,13 +61,21 @@ input {
     font-size: 40px;
 }
 
-#enter {
+#screen-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20vh;
+    width: 12vh;
+}
+
+#screen-buttons > button {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: "#AFE1AF";
     border: 3px solid black;
-    height: 20vh;
+    height: 9vh;
     width: 12vh;
     font-size: 35px;
 }
